@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Card</title>
+   
+    </head>
+   <body>
+
+    <style>
+
+    .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+
+    .section1 {
+    width: 500px;
+    height: 650px;
+    background: rgb(197, 192, 192);
+    border-radius: 30px;
+    }
+
+    .imagen--codigo img{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+
+    .imagen--inicio img{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    border-radius: 80px;
+    box-shadow: 0px 0px 5px 2px rgb(185, 124, 11);
+    margin-top: 20px;
+    margin-top: -70px;
+    left: calc(50% - 70px);
+    }
+
+    .description {
+    margin-left: 140px;
+    left: -7px;
+    margin-top: 77px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    }
+
+    .description h1 {
+    color:#1a5f97c4;
+    }
+
+    .description h2 {
+    display: block;
+    margin-block-start: 100px;
+    margin-block-end: 10px;
+    margin-inline-start: -16px;
+    justify-content: center;
+    line-height: 2rem;
+    color: #435555;
+    }
+
+    .description p {
+    margin-left: 20px;
+    line-height: 4rem;
+    color:rgb(109, 102, 95)
+    }
+
+    .contact {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #435555;
+    margin-block-start: 3.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+      
+    </style>
+
+    <section class="container">
+        <section class="section1">
+            <div class="imagen--codigo">
+                <img src="https://images.pexels.com/photos/586087/pexels-photo-586087.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Rocket Launch">
+                
+                </div>
+                <div class="imagen--inicio">
+                <img src="https://i.imgur.com/y0oiere.jpg" alt="Foto GGD">
+                </div>
+
+                <div class="description">           
+                <h2>Geronimo Gonzalez</h2>
+                <h1>Audiovisual Engineer</h1>
+                <h1>Full Stack Developer</h1>
+                <P>Space Coast, Florida</P>
+
+            </div><p class="contact">Contact</p></div>
+            
+        </section>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+Trying to create a card on my first clases of HTML and CSS.
